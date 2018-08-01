@@ -1,0 +1,9 @@
+# Move in sync with your dance partner to impress Pender Spellbane.
+
+friend = hero.findNearest(hero.findFriends())
+offsetx = friend.pos.x - hero.pos.x
+offsety = friend.pos.y - hero.pos.y
+while True:
+    target = {'x' : friend.pos.x-offsetx, 'y': friend.pos.y - offsety}
+    hero.move(target)
+
