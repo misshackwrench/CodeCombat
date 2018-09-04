@@ -1,1 +1,12 @@
 
+# There is a headhunter in the area!
+# Move around the forest to avoid his line-of-sight.
+
+while True:
+    hero.moveXY(56,44)
+    hero.moveXY(40,56)
+    hero.moveXY(23,44)
+    hero.moveXY(24,23)
+    hero.moveXY(40,13)
+    hero.moveXY(56,24)
+    
