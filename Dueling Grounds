@@ -1,0 +1,17 @@
+# Defeat the enemy hero in a duel!
+
+if pet.isReady("shape-shift"):
+    pet.shapeShift()
+pet.moveXY(15, 51)
+while True:
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        if hero.isReady("cleave"):
+            hero.cleave(enemy)
+        else:
+            hero.attack(enemy)
+    else:
+        hero.say("Bring it!")
+    
+
+    
