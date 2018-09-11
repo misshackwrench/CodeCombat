@@ -1,0 +1,9 @@
+# If there is an enemy, attack it.
+# Otherwise, attack the chest!
+
+while True:
+    # Use if/else.
+    if "Chest":
+        hero.attack("Chest")
+    
+    
